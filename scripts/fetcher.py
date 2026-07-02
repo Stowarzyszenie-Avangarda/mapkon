@@ -80,12 +80,14 @@ def parse_links(text):
 
 
 def download_xlsx(cache_path):
-    """Download the sheet export to cache_path if absent; return the path.
+    """Return the cached spreadsheet, downloading it only if the cache is absent.
 
-    SHEET_ID is read from the environment so it stays out of source. The export is
-    validated as a real xlsx (a restricted sheet returns an HTML login page).
+    The cache is reused by default; set FORCE_FETCH=1 to re-download and refresh it.
+    CI has no cache (fresh runner), so deploys always fetch the latest sheet. SHEET_ID
+    is read from the environment so it stays out of source; the export is validated as
+    a real xlsx (a restricted sheet returns an HTML login page).
     """
-    if cache_path.exists():
+    if cache_path.exists() and not os.environ.get("FORCE_FETCH"):
         return cache_path
     sheet_id = os.environ.get("SHEET_ID")
     if not sheet_id:

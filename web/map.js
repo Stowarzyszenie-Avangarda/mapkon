@@ -56,19 +56,28 @@ function infoFor(exhibitors, num) {
 }
 
 function buildEntries(spaces, exhibitors) {
-  const byName = {};  // normalized exhibitor name -> [numbers], for name-drawn stalls
-  for (const [num, v] of Object.entries(exhibitors)) {
+  const byName = {}, byKey = {};  // name -> [keys] (name-drawn stalls); normalized stall key -> key
+  for (const [key, v] of Object.entries(exhibitors)) {
     const name = typeof v === 'object' ? v.name : v;
-    (byName[norm(name)] ||= []).push(num);
+    (byName[norm(name)] ||= []).push(key);
+    byKey[norm(key)] = key;
   }
   return spaces.map(sp => {
-    let numbers, info;
+    let numbers = [], info = {};
     if (sp.numeric) {
       numbers = sp.label.match(/\d+/g) || [];
       info = infoFor(exhibitors, numbers[0]);
     } else {
-      numbers = byName[norm(sp.label)] || [];        // recover number(s) if known
-      info = numbers.length ? infoFor(exhibitors, numbers[0]) : {};
+      // Zones are drawn with their stall key ("GnŻ", "Kidzone"); some stalls are drawn
+      // by exhibitor name instead. Try the stall key first, then fall back to the name.
+      const key = byKey[norm(sp.label)];
+      if (key) {
+        info = infoFor(exhibitors, key);
+        if (/^\d+$/.test(key)) numbers = [key];
+      } else {
+        numbers = byName[norm(sp.label)] || [];      // recover number(s) if known
+        info = numbers.length ? infoFor(exhibitors, numbers[0]) : {};
+      }
     }
     return {
       id: sp.id,

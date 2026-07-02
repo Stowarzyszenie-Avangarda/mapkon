@@ -48,8 +48,14 @@ npm ci                 # or: npm install
 npm run build          # runs the Python data step (uv) then `vite build` -> dist/
 ```
 
-The first run downloads the source spreadsheet (~57 MB) into `.cache/`; delete that file
-to force a fresh pull.
+The first run downloads the source spreadsheet (~57 MB) into `.cache/` and reuses it on
+later builds. After editing the sheet, refresh the cache explicitly:
+
+```sh
+FORCE_FETCH=1 npm run build      # re-download the sheet, then build
+```
+
+(CI has no cache, so deploys always fetch the latest sheet.)
 
 ## Develop / preview
 
