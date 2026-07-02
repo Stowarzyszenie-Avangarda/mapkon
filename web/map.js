@@ -96,7 +96,7 @@ function openModal(entry) {
     imageWidth: 200,
     imageAlt: entry.name || entry.label,
     confirmButtonText: 'Zamknij',
-    confirmButtonColor: '#1c7ed6',
+    confirmButtonColor: '#00a232',   // Bazyliszek brand green
     heightAuto: false,   // keep body at height:100% so the full-height map doesn't jump
   });
 }
