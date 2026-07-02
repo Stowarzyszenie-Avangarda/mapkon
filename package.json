@@ -1,0 +1,22 @@
+{
+  "name": "bazyliszek-mapa",
+  "version": "1.0.0",
+  "description": "Interactive exhibitor floor-plan map, deployed to GitHub Pages.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "gen": "uv run scripts/gen_data.py",
+    "dev": "npm run gen && vite",
+    "build": "npm run gen && vite build",
+    "preview": "vite preview"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.3.6"
+  },
+  "dependencies": {
+    "@fontsource/open-sans": "^5.2.7",
+    "@panzoom/panzoom": "^4.6.2",
+    "sweetalert2": "^11.26.25"
+  }
+}

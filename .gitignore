@@ -1,0 +1,42 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Tooling caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# JS toolchain
+node_modules/
+
+# Build output & generated data & caches
+dist/
+public/
+.cache/
+/logos/
+
+# Local secrets (SHEET_ID etc.)
+.env
+
+# Generated artifacts if a script is run standalone at the repo root
+/wystawcy_auto.json
+/spaces.json
+/interactive_map.svg
+
+# Source spreadsheet download (large; fetched by fetcher.py)
+*.xlsx
+*.xslx
+
+# Backups & editor/OS junk
+*.bak
+*:Zone.Identifier
+.DS_Store
+Thumbs.db

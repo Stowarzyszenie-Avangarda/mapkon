@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="./bazyliszek-logo.png">
+<link rel="apple-touch-icon" href="./bazyliszek-logo.png">
+<title>Bazyliszek 2026 — Mapa wystawców</title>
+</head>
+<body>
+  <header id="topbar">
+    <a class="brand" href="https://bazyliszek.ava.waw.pl/" target="_blank" rel="noopener">
+      <img src="./bazyliszek-logo.png" alt="Bazyliszek" class="logo">
+      <span class="brand-text">Bazyliszek 2026 <small>Mapa wystawców</small></span>
+    </a>
+    <a class="home-link" href="https://bazyliszek.ava.waw.pl/" target="_blank" rel="noopener">Strona główna&nbsp;↗</a>
+  </header>
+
+  <div id="app">
+    <aside id="sidebar">
+      <h3>Spis wystawców</h3>
+      <div class="head"><input id="search" type="text" placeholder="Szukaj numeru lub nazwy…"></div>
+      <div id="count"></div>
+      <ul id="list"></ul>
+    </aside>
+
+    <div id="stage">
+      <button id="hamburger" aria-label="Spis wystawców">☰</button>
+      <div id="backdrop"></div>
+      <div id="controls">
+        <button id="zin" aria-label="Powiększ">+</button>
+        <button id="zout" aria-label="Pomniejsz">−</button>
+        <button id="zreset" aria-label="Dopasuj">⤢</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vite entry: bundles map.css + panzoom + SweetAlert2 + Open Sans, all hashed. -->
+  <script type="module" src="./map.js"></script>
+</body>
+</html>
