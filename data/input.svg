@@ -787,43 +787,47 @@
                 </g>
             </g>
             <g>
+                <rect x="3533.342" y="1056.489" width="329.71" height="117.773" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
+                <g transform="matrix(40.833333,0,0,40.833333,3834.910527,1125.942444)">
+                </g>
+                <text x="3559.668px" y="1125.942px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:40.833px;">Gości<tspan x="3653.836px " y="1125.942px ">o</tspan>wyst<tspan x="3748.004px " y="1125.942px ">a</tspan>wcy</text>
+            </g>
+            <g>
                 <g>
-                    <path d="M3003.198,408.633L3003.198,175.585L3120.971,175.585L3120.971,408.633L3003.198,408.633Z" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
-                    <path d="M2804.581,408.633L2804.581,175.585L2922.354,175.585L2922.354,408.633L2804.581,408.633Z" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
-                    <path d="M3003.198,783.039L3003.198,429.514L3120.971,429.514L3120.971,783.039L3003.198,783.039Z" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
-                    <path d="M3003.198,1056.489L3003.198,823.441L3120.971,823.441L3120.971,1056.489L3003.198,1056.489Z" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
-                    <path d="M2836.343,903.517L2659.203,752.081L2735.733,662.562L2912.873,813.998L2836.343,903.517Z" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
-                </g>
-                <g>
-                    <rect x="3533.342" y="1056.489" width="329.71" height="117.773" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
-                    <g transform="matrix(40.833333,0,0,40.833333,3814.681618,1127.727303)">
+                    <path d="M3015.858,388.118L3015.858,170.497L3125.835,170.497L3125.835,388.118L3015.858,388.118Z" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
+                    <path d="M2830.39,388.118L2830.39,170.497L2940.367,170.497L2940.367,388.118L2830.39,388.118Z" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
+                    <path d="M3015.858,732.137L3015.858,402.014L3125.835,402.014L3125.835,732.137L3015.858,732.137Z" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
+                    <path d="M3015.858,966.008L3015.858,748.387L3125.835,748.387L3125.835,966.008L3015.858,966.008Z" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
+                    <path d="M3014.328,1057.542L3014.328,978.365L3127.664,978.365L3127.664,1057.542L3014.328,1057.542Z" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
+                    <g transform="matrix(32.300563,0,0,32.300563,3097.999607,1029.325124)">
                     </g>
-                    <text x="3539.439px" y="1127.727px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:40.833px;">Gości<tspan x="3633.607px " y="1127.727px ">o</tspan>wyst<tspan x="3727.775px " y="1127.727px ">a</tspan>wcy</text>
+                    <text x="3044.108px" y="1029.325px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:32.301px;">149</text>
+                    <path d="M2860.049,850.242L2694.636,708.831L2766.099,625.237L2931.513,766.649L2860.049,850.242Z" style="fill:white;stroke:rgb(16,92,146);stroke-width:8.08px;"/>
                 </g>
-                <g transform="matrix(0,1,-1,0,3532.417946,-7162.976586)">
-                    <g transform="matrix(46.120434,0,0,46.120434,7861.415176,478.426688)">
+                <g transform="matrix(0,1,-1,0,3510.978463,-6899.341738)">
+                    <g transform="matrix(43.067417,0,0,43.067417,7552.478372,447.688777)">
                     </g>
-                    <text x="7638.447px" y="478.427px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:46.12px;">Przyczółek</text>
+                    <text x="7344.27px" y="447.689px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:43.067px;">Przyczółek</text>
                 </g>
-                <g transform="matrix(0,1,-1,0,3266.048166,-7429.93188)">
-                    <g transform="matrix(46.120434,0,0,46.120434,7784.893088,211.76415)">
+                <g transform="matrix(0,1,-1,0,3267.844283,-7143.022673)">
+                    <g transform="matrix(43.067417,0,0,43.067417,7481.021788,204.281219)">
                     </g>
-                    <text x="7638.74px" y="211.764px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:46.12px;">Hengal</text>
+                    <text x="7344.543px" y="204.281px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:43.067px;">Hengal</text>
                 </g>
-                <g transform="matrix(0,1,-1,0,3890.768081,-6802.937471)">
-                    <g transform="matrix(34.590326,0,0,34.590326,7816.381319,837.621313)">
+                <g transform="matrix(0,1,-1,0,3824.129551,-6584.613474)">
+                    <g transform="matrix(32.300563,0,0,32.300563,7510.425605,761.628453)">
                     </g>
-                    <text x="7637.603px" y="837.621px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:34.59px;">Black Monk</text>
+                    <text x="7343.482px" y="761.628px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:32.301px;">Black Monk</text>
                 </g>
-                <g transform="matrix(0.760406,0.649448,-0.649448,0.760406,-1022.886122,-2196.471741)">
-                    <g transform="matrix(46.120434,0,0,46.120434,4912.560036,-190.856942)">
+                <g transform="matrix(0.760406,0.649448,-0.649448,0.760406,-900.265165,-2186.840749)">
+                    <g transform="matrix(43.067417,0,0,43.067417,4798.827486,-171.687716)">
                     </g>
-                    <text x="4756.205px" y="-190.857px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:46.12px;">RESQL</text>
+                    <text x="4652.823px" y="-171.688px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:43.067px;">RESQL</text>
                 </g>
-                <g transform="matrix(0,1,-1,0,3111.488859,-7177.41169)">
-                    <g transform="matrix(46.120434,0,0,46.120434,7506.925589,260.744592)">
+                <g transform="matrix(0,1,-1,0,3123.51628,-6907.218467)">
+                    <g transform="matrix(43.067417,0,0,43.067417,7221.454798,250.019321)">
                     </g>
-                    <text x="7435.2px" y="260.745px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:46.12px;">JiM</text>
+                    <text x="7154.477px" y="250.019px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:43.067px;">JiM</text>
                 </g>
             </g>
         </g>
